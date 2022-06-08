@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/Helpers/_variables.scss",
+        "../scss/Helpers/_mixin.scss",
+        "../scss/Base/_reset.scss",
+        "../scss/Components/_button.scss",
+        "../scss/Components/_card.scss",
+        "../scss/Layouts/_header.scss",
+        "../scss/Layouts/_carousel.scss",
+        "../scss/Layouts/_teacher.scss",
+        "../scss/Layouts/_information.scss",
+        "../scss/Layouts/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
