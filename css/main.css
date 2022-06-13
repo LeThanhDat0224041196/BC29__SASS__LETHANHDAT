@@ -16,21 +16,4 @@ html, body {
 .section {
   padding: 100px 0;
 }
-
-header {
-  background-image: url(./../../images/images/yellow_top_wave_01.png);
-}
-
-.OurTeachCarousel {
-  background-image: url(./../../images/images/Violet_top_left_wave.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.Teacher_information {
-  background-image: url(./../../images/images/Wave_White_bottom_right_shape_01.png);
-  background-color: #dcd1f0;
-  background-size: cover;
-}
 /*# sourceMappingURL=main.css.map */
