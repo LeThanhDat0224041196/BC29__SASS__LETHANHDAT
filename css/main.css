@@ -10,10 +10,29 @@ html, body {
   font-size: 14px;
   font-weight: 400;
   color: #656774;
-  background-color: #f5f9fe;
+  background-color: #fff;
 }
 
 .section {
   padding: 100px 0;
+}
+
+.headerCarousel {
+  position: absolute;
+}
+
+.OurTeachCarousel {
+  background-image: url(./../../images/images/Violet_top_left_wave.png);
+  padding: 4em 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.Teacher_information {
+  background-image: url(./../../images/images/Wave_White_bottom_right_shape_01.png);
+  background-position: bottom;
+  background-color: #dcd1f0;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
