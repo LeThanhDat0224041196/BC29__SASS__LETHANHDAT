@@ -70,7 +70,7 @@
     </header>
 
     <section class="OurTeachCarousel">
-      <div class="container">
+      <div class="container content_Carousel">
         <div class="row">
           <div class="col-12 col-md-6 d-flex align-items-center">
               <div>
@@ -182,23 +182,29 @@
             <img class="img-fluid" src="./images/images/conatct_inner.png">
           </div>
           <div class="col-6 d-md-block d-none">
-            <div class="card">
-              <div class="card-body">
-                <span>Find Your Course</span>
+            <div class="card cardFindInformation">
+              <h1>Find Your Course</h1>
+              <div class="card-body cardBodyInformation">
                 <form class="form-inline" action="/action_page.php">
-                  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
-                  <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
+                  <div class="cardName">
+                    <input type="name" class="form-control mb-2 mr-sm-2" placeholder="Name" id="name">
+                  </div>
+                  <div class="cardEmail">
+
+                    <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Email" id="email">
+                  </div>
                 </form>
                 <div class="form-group">
                   <select class="form-control" id="sel1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
+                    <option>English</option>
+                    <option>French</option>
+                    <option>Spanish</option>
+                    <option>German</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                  
+                  <textarea class="form-control" rows="3" id="comment" placeholder="Message"></textarea>
                 </div>
                 <div class="informationButton">
                   <button type="button" class="btn btn-light">Send</button>

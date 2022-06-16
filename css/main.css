@@ -36,6 +36,24 @@ html, body {
   color: #b61883;
 }
 
+.cardTeacher .card-body .card-text {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.cardFindInformation {
+  border-radius: 20px;
+  padding: 80px 50px 50px 50px;
+}
+
+.cardFindInformation h1 {
+  text-align: center;
+  padding: 30px;
+  font-weight: 900;
+  color: #121212;
+}
+
 .headerCarousel {
   position: absolute;
 }
@@ -73,5 +91,9 @@ html, body {
   background-position: bottom;
   background-color: #dcd1f0;
   background-size: cover;
+}
+
+.findInformation {
+  padding-top: 60px;
 }
 /*# sourceMappingURL=main.css.map */

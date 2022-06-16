@@ -17,3 +17,9 @@
     border-color: $bd-color;
     color: $color;
 }
+
+@mixin styleText1($fw,$color) {
+    // font-size:$fs ;
+    font-weight:$fw ;
+    color:$color ;
+}
